@@ -10,6 +10,11 @@ namespace ClassLibrary1
     {
         private string _Nombre;
 
+        public clsCliente(string pNombre)
+        {
+            Nombre = pNombre;
+        }
+
         public string Nombre
         {
             get { return _Nombre; }
